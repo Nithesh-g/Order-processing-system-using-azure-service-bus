@@ -1,0 +1,11 @@
+2025-10-30 10:28:18,392 INFO worker Processing message ORD-f9bb0e55 on subscription billing
+2025-10-30 10:28:18,394 INFO worker Payload: {'orderId': 'ORD-f9bb0e55', 'createdAt': '2025-10-29T14:37:46.747759Z', 'customer': {'customerId': 'C1', 'email': 'john@doe.com'}, 'items': [{'sku': 'A1', 'qty': 1, 'price': 50.0}], 'total': 50.0, 'payment': {'method': 'card', 'last4': '1111'}, 'metadata': {}}
+2025-10-30 10:28:19,413 INFO worker Charged customer for order ORD-f9bb0e55
+2025-10-30 10:31:46,161 INFO worker  Started worker for subscription: billing
+2025-10-30 10:43:23,967 INFO worker  Started worker for subscription: billing
+2025-10-30 10:43:24,208 INFO worker Processing message ORD-c578555f on subscription billing
+2025-10-30 10:43:24,209 INFO worker Payload: {'orderId': 'ORD-c578555f', 'createdAt': '2025-10-30T05:12:22.295157Z', 'customer': {'customerId': 'CUST001', 'email': 'nithesh@example.com'}, 'items': [{'sku': 'SKU123', 'qty': 2, 'price': 150.0}], 'total': 300.0, 'payment': {}, 'metadata': {}}
+2025-10-30 10:43:25,213 INFO worker Charged customer for order ORD-c578555f
+2025-10-30 10:43:28,698 INFO worker  Email sent via Mailtrap: Order ORD-c578555f - Payment Received
+2025-10-30 10:43:28,701 INFO worker  Completed message ORD-c578555f
+2025-10-30 11:23:16,038 INFO worker Worker stopped by user
